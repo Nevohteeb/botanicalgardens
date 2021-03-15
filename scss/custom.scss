@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('../img/bg.png');
+}
+
+/* Header Set */
+
+h1,
+h3,
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+/* NAV */
+
+body {
+
+  .bg-dark{
+    background-color: #037367 !important;
+  }
+
+}
+
+/* LOGO AND PAGE HEADER */
+
+.wgb-header,
+.logo-row {
+  text-align: center;
+  width: 100%;
+}
+
+.wgb-header {
+  padding-bottom: 40px;
+}
+
+.wg-logo {
+  width: 150px;
+  margin-top: 100px;
+}
+
+/* Section styling */
+
+.section-header{
+  text-align: center;
+  width: 100%;
+}
+
+.section-title{
+  color: #E91E50;
+}
+
+.carousel {
+  margin-bottom: 50px;
+}
+
+#currentEvents {
+  margin-bottom: 50px;
+}
+.current-events-desktop,
+.current-events-mobile {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.current-events-mobile .card {
+  margin: 0 auto;
+}
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.card-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.btn {
+  border-radius: 1rem;
+  border-color: #037367;
+  font-family: 'Montserrat', sans-serif;
+}
+.btn-primary {
+  background-color: #037367;
+  margin-bottom: 50px;
+}
+
+.button-row {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.button {
+  background-color: #037367;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.map-row {
+  padding-bottom: 100px;
+  height: 500px;
+}
+
+// media querrie
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+  .current-events-desktop {
+    display: none;
+  }
+}
+/* Small devices (portrait tablets and large phones, 577px and up) */
+@media only screen and (min-width: 576.98px) {
+  .current-events-mobile {
+    display: none;
+  }
+}

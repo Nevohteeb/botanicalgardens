@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('../img/bg.png');
+}
+
+/* Header Set */
+
+h1,
+h3,
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+/* NAV */
+
+body nav.bg-light {
+background-color: #037367 !important;
+}
+
+/* LOGO AND PAGE HEADER */
+
+.wgb-header,
+.logo-row {
+  text-align: center;
+  width: 100%;
+}
+
+.wgb-header {
+  padding-bottom: 40px;
+}
+
+.wg-logo {
+  width: 150px;
+}
+
+/* Section styling */
+
+.section-header{
+  text-align: center;
+  width: 100%;
+}
+
+.section-title{
+  color: #E91E50;
+}
+
+.carousel {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.button-row {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.button {
+  background-color: #037367;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.map-row {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  height: 500px;
+}
